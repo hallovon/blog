@@ -2,7 +2,7 @@ use axum::Json;
 
 use crate::Response;
 
-pub mod test;
+pub mod articles;
 
 type HandlerResult<T> = crate::Result<Json<Response<T>>>;
 

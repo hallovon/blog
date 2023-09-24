@@ -7,7 +7,6 @@
 <div class="container">
     <Header />
     <slot />
-    <div class="long-div"></div>
     <Footer />
     <BackToTop />
 </div>
@@ -15,10 +14,5 @@
 <style scoped>
     .container {
         position: relative;
-    }
-
-    .long-div {
-        height: 100vh;
-        width: 100%;
     }
 </style>

@@ -2,9 +2,9 @@
     export let article;
 </script>
 
-<article class="article">
-    <h2 class="article_title">{@html article.title}</h2>
-    <div class="article_description">
+<article>
+    <h1 class="title">{article.title}</h1>
+    <div class="description">
         <span>{article.topic}</span>
         <span>{new Date(article.create_time).toLocaleDateString()}</span>
     </div>
@@ -14,18 +14,21 @@
 </article>
 
 <style>
-    .article {
-        font-size: 1.8rem;
+    article {
+        width: 60%;
+        margin: 8.4rem auto 4.2rem;
+        font-size: 2rem;
         line-height: 1.6;
+        /* background-color: blueviolet; */
     }
 
-    .article_title {
-        margin: 7.2rem auto 2.4rem;
+    .title {
+        margin: 9.6rem auto 2.4rem;
         font-size: 4.2rem;
         text-align: center;
     }
 
-    .article_description {
+    .description {
         font-size: 1.4rem;
         display: flex;
         width: 20%;
