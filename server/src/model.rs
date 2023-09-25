@@ -12,9 +12,11 @@ pub struct Article {
     pub article_content: String,
 }
 
-
 #[derive(Serialize, FromRow)]
 pub struct Topic {
     topic_id: i32,
     topic_name: String,
 }
+
+#[derive(Serialize, FromRow)]
+pub struct DateTime(pub(crate) NaiveDateTime);

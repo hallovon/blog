@@ -1,12 +1,7 @@
 <script>
-    import Article from "$lib/component/article.svelte";
-    import { onMount } from "svelte";
+  import Article from "$lib/component/article.svelte";
 
-    export let data;
-    let article;
-    onMount(() => {
-        article = data.data;
-    });
+  export let data;
 </script>
 
-<Article {article} />
+<Article article={data.data} />

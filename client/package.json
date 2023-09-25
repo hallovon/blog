@@ -10,6 +10,7 @@
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.20.4",
+		"iconify-icon": "^1.0.8",
 		"mdsvex": "^0.11.0",
 		"svelte": "^4.0.5",
 		"svelte-highlight": "^7.3.0",
@@ -17,7 +18,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"iconify-icon": "^1.0.8",
-		"svelte-markdown": "^0.4.0"
+		"svelte-markdown": "^0.4.0",
+		"svrollbar": "^0.12.0"
 	}
 }
